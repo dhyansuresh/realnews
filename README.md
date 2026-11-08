@@ -2,8 +2,6 @@
 
 RealNews tracks how U.S. senators and representatives have voted over the last 4 years, with official summaries, related news and personal follows. It was created at a hackathon by a 3-person team.
 
-Project scope, architecture and rules are in [AGENTS.md](AGENTS.md).
-
 ## Features
 
 - **Explore by state:** a U.S. map with Senate and House views, including clickable congressional district maps.
