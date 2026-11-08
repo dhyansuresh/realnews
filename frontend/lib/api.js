@@ -44,7 +44,6 @@ const postAi = (path, body) => request(path, {
   body: JSON.stringify(body),
 }, 65_000);
 export const getAiSummary = (body) => postAi("/ai/summary", body);
-export const askAboutPolicy = (body) => postAi("/ai/ask", body);
 
 export const accountRequest = (path = "", options = {}, timeout) => request("/account" + path, options, timeout);
 export const lookupZip = (zip) => request("/districts/zip/" + encodeURIComponent(zip));

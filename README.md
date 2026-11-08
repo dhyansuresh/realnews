@@ -114,6 +114,6 @@ The project comes from `.firebaserc`; add `--project your-project-id` to use a d
 
 ## Current status
 
-- The AI chat character and AI summaries are not on the site. Their code remains in the repository and needs a private DeepSeek or Ollama server.
+- AI summaries are not on the site. The backend AI endpoints remain and need a private DeepSeek or Ollama server. The AI chat character has been removed; it's available in the git history.
 - The database may contain only a sample of votes, depending on what has been loaded.
 - Ashley Moody and Jon Husted show as former senators, because the source data lists their appointed terms as ending on November 3, 2026.
