@@ -16,7 +16,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
+#hi
 
 def error_response(status: int, code: str, message: str) -> JSONResponse:
     """Shared error shape: { "error": { "code", "message" } } (AGENTS.md §7)."""
